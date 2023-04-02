@@ -2,6 +2,11 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background: linear-gradient(
+    100deg,
+    rgba(12, 123, 5, 0.5),
+    rgba(12, 123, 5, 1)
+  );
 }
 
 .box {
@@ -9,11 +14,6 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background: linear-gradient(
-    100deg,
-    rgba(12, 123, 5, 0.5),
-    rgba(12, 123, 5, 1)
-  );
 }
 
 .glass {
