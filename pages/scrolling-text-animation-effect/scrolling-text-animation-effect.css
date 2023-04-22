@@ -6,6 +6,7 @@
 body {
   font-family: "Source Sans Pro", sans-serif;
 }
+
 section {
   position: relative;
   width: 100%;
@@ -13,19 +14,21 @@ section {
   display: flex;
   overflow: hidden;
 }
+
 section div {
   position: relative;
   width: 50%;
-  background: #20506b;
+  background-color: #20506b;
   overflow: hidden;
 }
+
 section div:nth-child(1) {
   width: 50%;
-
   background: url(./images/img.jpg);
   background-size: cover;
   box-sizing: border-box;
 }
+
 section div h2 {
   position: absolute;
   white-space: nowrap;
